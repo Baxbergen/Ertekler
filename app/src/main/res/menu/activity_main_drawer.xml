@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Qıyalıy ertekler" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Turmıs ertekleri" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Haywanat haqqında ertekler" />
+
+        <item
+            android:id="@+id/saylangan"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Saylanǵanlar" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sazlama"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Sazlamalar" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Haqqımızda" />
+
+    </group>
+</menu>
